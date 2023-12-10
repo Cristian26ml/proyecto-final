@@ -1,0 +1,246 @@
+html, body {
+    width: 100%;
+    font-size: 1.0rem;
+    font-family: 'Roboto', sans-serif;
+    color: #111111;
+    font-weight: 300;
+}
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+ul {
+    color: azure;
+    list-style: none;
+}
+/*HEADER*/
+video{
+    width: 100%;
+    height: 100%;
+}
+.grupo-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    position: absolute;
+}
+.content .card-title-header{
+    color: aliceblue;
+    font-size: 9vw;
+}
+.card-body-header a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 5vw;
+}
+/*-----------------------------separadores con video-----------------------------------*/
+.parallax-mirror video{
+    height: 100%;
+}
+
+.parallax-mirror {
+    background-color: black;
+    visibility: visible;
+    z-index: -100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%; 
+    /*transform: translate3d(0px, 199.078px, 0px);*/
+}
+
+.page-main {
+    margin: 0;
+    padding: 70px 0;
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+}
+.page-main ol{
+    list-style: none;
+}
+/*MAIN*/
+.style-video{
+    display: flex;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    max-width: 100%;
+}
+.carousel-inner{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.874);
+    visibility: visible;
+    display: grid;
+    justify-content: center;
+}
+/*---------------------------------------SECCION FOOTER------------------------------------------------*/
+.logofooter {
+    background: rgb(5, 5, 5);
+    padding-top: 0%;
+}
+.log-footer {
+    display: inline-block;
+}
+/*--------------footer-contacto----------------*/
+.button-network {
+    gap: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.log-footer {
+    margin: 5px;
+    height: 100px;
+}
+.logito {
+    width: 100px;
+    height: 100px;
+}
+.button-position {
+    text-align: -webkit-center;
+    background-color: rgba(104, 98, 98, 0.66);
+}
+.button-network__button {
+    width: 100px;
+    height: 55px;
+    display: block;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #e8d5d5;
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+    margin: 20px;
+}
+.button-network__button p{
+    display: none;
+}
+.button-network__button:hover >  p{
+    display: block;
+}
+.button-network__button:hover {
+    width: 100%;
+    padding: 0 15px;
+}
+.button-network__button:nth-child(1):hover {
+    color: #6eb6ea;
+}
+.button-network__button:nth-child(2):hover {
+    color: rgb(11, 170, 170);
+}
+.button-network__button:nth-child(3):hover {
+    color: #87103a;
+}
+.button-network__button:nth-child(4):hover {
+    color: #cf0332;
+}
+.button-network__button:nth-child(5):hover {
+    color: #2db721;
+}
+.button-network__button:nth-child(6):hover {
+    color: #801622;
+}
+/*creditos*/
+.creditos {
+    background-color: #111111;
+    padding: 71px;
+    display: flex;
+    justify-content: space-around;
+}
+.parrafo {
+    font-size: larger;
+    color: white;
+}
+/*---------APLICAMOS LOS @MEDIA QUERY PARA LA PAGINA nostros.html-----------*/
+/*destock*/
+@media only screen and (min-width: 769px) and (max-width: 1224px){
+    .card{
+        width: 36rem!important;
+        height: 37rem!important;
+    }
+    .card iframe{
+        height: 50%;
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .card{
+        width: 26rem!important;
+        height: 27rem!important;
+    }
+    .card iframe{
+        height: 50%;
+        width: 50%;
+    }
+    .button-network {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+    .parallax-mirror{
+        transform: none;
+    }
+    .creditos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.9rem;
+        gap: 10px;
+    } 
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .card{
+        width: 19rem!important;
+        height: 26rem!important;
+    }
+    .card-text{
+        font-size: 0.5rem;
+    }
+    .card iframe{
+        height: 100%;
+        width: 100%;
+    }
+    .parallax-mirror{
+        transform: none;
+    }
+    .button-network {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .button-network a{
+        width: auto;
+        padding: 1px;
+        font-size: 2rem;
+    }
+    .button-network__button{
+        padding: 0;
+    }
+    .creditos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.5rem;
+        gap: 10px;
+    }
+}
