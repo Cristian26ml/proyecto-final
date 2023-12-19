@@ -1,0 +1,39 @@
+/*main/servicios*/
+.grupo-cards{
+    display: grid;
+    grid-template-columns: 2fr;
+    padding: 20px;
+    background-color: #111111;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    align-items: start;
+    .single-team{
+        background-color: #111111;
+        display: flex;
+        align-items: center;
+        padding: 1px;
+        .img-uno{
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            img{
+                border: 2px solid aliceblue;
+                border-radius: 4px;
+                padding: 1rem;
+                max-width: 100%;
+            }
+        }
+        .team-content{
+            text-align: justify;
+            padding: 6rem;
+            .titulo-uno{
+                color: aliceblue;
+                font-size: 2rem;
+            }
+            p{
+                color: aliceblue;
+                font-size: 1.7rem;
+            }
+        }
+    }
+}

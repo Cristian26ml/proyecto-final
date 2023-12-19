@@ -1,0 +1,65 @@
+@media only screen and (min-width: 769px) and (max-width: 1224px){
+    .content-from-all{
+        .cotainer-form{
+            width: 100%;
+        }
+    }
+    .diseño-mapa{
+        .mapastudio{
+            div{
+                width: 100%!important;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .content-from-all{
+        .cotainer-form{
+            width: 100%;
+        }
+    }
+    .diseño-mapa{
+        .mapastudio{
+            div{
+                width: 100%!important;
+            }
+            p{ font-size: 1rem;}
+        }
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .content-form-all{
+        .titulo{
+            font-size: 1.2rem;
+            p{
+                font-size: 0.8rem;
+            }
+        }
+        .cotainer-form{
+            width: 100%;
+            form{
+                .flex-outer{
+                    li{
+                        label{
+                            width: 100%;
+                        }
+                        .colortexto{
+                            width: 100%;
+                            padding: 0!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .diseño-mapa{
+        .mapastudio{
+            @include flex(column-reverse, center);
+            gap: 10px;
+            div{
+                width: 100%!important;
+            }
+            p{font-size: 1rem;}
+        }
+    }
+}

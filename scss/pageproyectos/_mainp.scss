@@ -1,0 +1,29 @@
+/*Seccion proyecto.html*/
+.grupos-musicales{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.906);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+    
+    .video-music{
+        .card{
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            border: 1px solid white;
+            .descripcion-video{
+                background-color: black;
+                .card-title{color: aliceblue;}
+                .card-text{
+                    color: aliceblue;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

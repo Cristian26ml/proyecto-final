@@ -1,0 +1,76 @@
+.button-position{
+    text-align: -webkit-center;
+    background-color: rgba(104, 98, 98, 0.66);
+    .log-footer{
+        display: inline-block;
+        margin: 5px;
+        height: 100px;
+        .logito{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .button-network{
+        gap: 10px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        .button-network__button{
+            width: 100px;
+            height: 55px;
+            display: block;
+            border-radius: 10px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 50px;
+            text-decoration: none;
+            color: #e8d5d5;
+            font-weight: bold;
+
+            transition: all 0.3s ease;
+            margin: 20px;
+            &:hover{
+                width: 100%;
+                padding: 0 15px;
+            }
+            &:hover > p{
+                display: block;
+            }
+            &:nth-child(1):hover{
+                color: #6eb6ea;
+            }
+            &:nth-child(2):hover{
+                color: rgb(11, 170, 170);
+            }
+            &:nth-child(3):hover{
+                color: #87103a;
+            }
+            &:nth-child(4):hover{
+                color: #cf0332;
+            }
+            &:nth-child(5):hover{
+                color: #2db721;
+            }
+            &:nth-child(6):hover{
+                color: #801622;                    
+            }
+            p{
+                display: none;
+                
+            }
+        }
+    }
+}
+.creditos{
+    background-color: #111111;
+    padding: 71px;
+    display: flex;
+    justify-content: space-around;
+    .parrafo{
+        font-size: larger;
+        color: white;
+    }
+}

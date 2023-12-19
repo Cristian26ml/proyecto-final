@@ -1,0 +1,16 @@
+/*Seccion equipo.html*/
+.main{
+    background-color: #000000;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    @include grid(center, center);
+    .fondoequipo{
+        img{width: 100%;}
+    }
+    .grupo-equipos-menu{
+        width: 100%;
+        gap: 5rem;
+        @include flex(column, flex-start);
+        padding: 80px;
+    }
+}

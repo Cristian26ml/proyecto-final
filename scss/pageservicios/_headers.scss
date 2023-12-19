@@ -1,0 +1,23 @@
+.grupo-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .style-video{
+        display: flex;
+    }
+    .content{
+        position: absolute;
+        .card-title-header{
+            color: aliceblue;
+            font-size: 9vw;
+        }
+        .card-body-header{
+            a{
+                color: aliceblue;
+                text-decoration: none;
+                font-size: 5vw;
+            }
+        }
+    }
+}

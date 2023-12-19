@@ -74,7 +74,7 @@ video{
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 /*----------------------------------APLICANDO BOOTSTRAPS MENU HAMBURGUESA------------------------------*/
 .nav-item{
@@ -450,8 +450,8 @@ video{
     }
     .team-content h2{
         font-size: 1.3rem;
-    
-    }.team-content p{
+    }
+    .team-content p{
         font-size: 1.2rem;
     }
     .parallax-mirror{
@@ -745,7 +745,7 @@ video{
 }
 .colortexto {
     color: aliceblue;
-    background-color: rgba(78 54 57 / 83%);
+    background-color: rgba(78 54 57 / 83%);;
 }
 .colortexto, textarea {
     font-size: 1.2rem;

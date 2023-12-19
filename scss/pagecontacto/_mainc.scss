@@ -1,0 +1,88 @@
+/*Seccion contacto.html*/
+.content-form-all{
+    background-color: #111111;
+    width: 100%;
+    .titulo{
+        background-color: #000000;
+        color: aliceblue;
+        text-align: justify;
+        font-size: 2rem;
+        padding: 30px;
+        p{font-size: 1.5rem;}
+    }
+    .container-form{
+        background-color: rgba(0, 0, 0, 0.945);
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        form{
+            .flex-outer{
+                max-width: 800px;
+                margin: 0 auto;
+                li{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    &:not(:last-child){
+                        margin-bottom: 20px ;
+                    }
+                    label{
+                        padding: 8px;
+                        font-weight: 300;
+                        letter-spacing: .09em;
+                        text-transform: uppercase;
+                        flex: 1 0 120px;
+                    }
+                    .colortexto{
+                        width: 100%;
+                        color: aliceblue;
+                        background-color: rgba(78 54 57 / 83%);
+                        &:not([type='checkbox']){
+                            background-color: rgba(210, 199, 199, 0.16);
+                            padding: 15px;
+                            border: none;
+                            color: aliceblue;
+                        }
+                    }
+                    textarea{
+                        font-size: 1.2rem;
+                        color: #111111;
+                        width: 1170px;
+                        border: none;
+                        padding: 9px 30px;
+                        background-color: rgba(210, 199, 199, 0.16);
+                        padding: 15px;
+                        border: none;
+                        color: aliceblue; 
+                    }
+                    button{
+                        margin-left: 0;
+                        padding: 8px 16px;
+                        border: none;
+                        background: #333;
+                        color: #f2f2f2;
+                        text-transform: uppercase;
+                        letter-spacing: .09em;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
+.diseño-mapa{
+    width: 100%;
+    padding: 30px;
+    background-color: #111111;
+    color: aliceblue;
+    .mapastudio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        font-size: 30px;
+        padding: 30px;
+    }
+}

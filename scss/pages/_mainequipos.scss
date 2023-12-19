@@ -1,0 +1,42 @@
+.container-main{
+    #equipos{
+        .card-inicio{
+            width: 100%!important;
+            height: 100%!important;
+            .row{
+                grid-template-columns: 2fr 2fr;
+                background-color: #111111;
+                display: grid;
+                color: aliceblue;
+                justify-items: start;
+                gap: 10px;
+                align-items: center;
+                .col-md-4{
+                    text-align: center;
+                    width:100%;
+                    .img-fluid{
+                        width: 50%;
+                        margin: 15px;
+                    }
+                }
+                .col-md-8{
+                    .card-body{
+                        width: 70vh;
+                        .card-title{
+                            font-size: 3rem;
+                            color:aliceblue;
+                        }
+                        .card-text{
+                            font-size: 1rem;
+                            text-align: justify;
+                            color: aliceblue;
+                        }
+                        a{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

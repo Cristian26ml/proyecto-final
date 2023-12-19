@@ -1,0 +1,46 @@
+/*Seccion nosotros.html*/
+.container-video-texto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    .container-de-video-texto1{
+        grid-template-columns: 2fr 2fr;
+        background-color: #111111;
+        padding: 15px;
+        gap: 15px;
+        @include grid(center, center);
+        .video-nosotros{
+            video{max-width: 100%;}
+        }
+        .container-texto{
+            text-align: justify;
+            padding: 15px;
+            font-size: 1.3rem;
+            width: 100%;
+            h1{
+                color: aliceblue;
+                font-size: 2.5rem;
+            }
+            p{color: aliceblue;}
+        }
+    }
+    .container-de-video-texto2{
+        @include grid(center, center);
+        grid-template-columns: 2fr 2fr;
+        background-color: #111111;
+        padding: 15px;
+        gap: 15px;
+        
+        .video-nosotros{
+            video{max-width: 100%;}
+        }
+        .container-texto{
+            text-align: justify;
+            padding: 15px;
+            font-size: 1.3rem;
+            width: 100%;
+            p{color: aliceblue;}
+        }
+    }
+}
+
