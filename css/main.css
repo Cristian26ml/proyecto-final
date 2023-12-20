@@ -49,10 +49,10 @@ header .grupo-header {
   justify-content: space-between;
 }
 header .grupo-header .navbar .container .navbar-toggler {
-  border: none !important;
+  border: none;
 }
 header .grupo-header .navbar .container .navbar-toggler:focus {
-  box-shadow: none !important;
+  box-shadow: none;
 }
 header .grupo-header .navbar .collapse .navbar-nav {
   column-gap: 40px;
@@ -419,7 +419,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-video-texto .container-de-video-texto1 {
   grid-template-columns: 2fr 2fr;
-  background-color: #111111;
+  background-image: linear-gradient(to left, #000000, rgba(211, 30, 49, 0.4784313725));
   padding: 15px;
   gap: 15px;
   display: grid !important;
@@ -447,7 +447,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   justify-items: center;
   align-items: center;
   grid-template-columns: 2fr 2fr;
-  background-color: #111111;
+  background-image: linear-gradient(to left, #000000, rgba(211, 30, 49, 0.4784313725));
   padding: 15px;
   gap: 15px;
 }
@@ -474,7 +474,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   overflow: hidden;
   height: 100%;
   width: 100%;
-  transform: translate3d(0px, 199.078px, 0px);
 }
 .parallax-mirror video {
   display: block;
@@ -637,7 +636,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 /*Seccion proyecto.html*/
 .grupos-musicales {
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.906);
+  background-image: linear-gradient(to right, #111135, rgba(161, 98, 98, 0.631372549));
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;

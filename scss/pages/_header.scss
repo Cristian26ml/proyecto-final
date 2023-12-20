@@ -18,9 +18,9 @@ header{
         .navbar{
             .container{
                 .navbar-toggler{
-                    border: none !important;
+                    border: none;
                     &:focus{
-                        box-shadow: none !important;
+                        box-shadow: none;
                     }
                 }
             }
