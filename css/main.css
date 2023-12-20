@@ -435,8 +435,8 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   font-size: 1.3rem;
   width: 100%;
 }
-.container-video-texto .container-de-video-texto1 .container-texto h1 {
-  color: aliceblue;
+.container-video-texto .container-de-video-texto1 .container-texto h2 {
+  color: rgb(203, 213, 222);
   font-size: 2.5rem;
 }
 .container-video-texto .container-de-video-texto1 .container-texto p {
@@ -574,7 +574,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 
 /*Seccion equipo.html*/
 .main {
-  background-color: #000000;
+  background-image: linear-gradient(to right, #000000, #5f3838, rgba(0, 0, 0, 0.5019607843));
   grid-template-columns: 1fr 1fr;
   padding: 15px;
   display: grid !important;
@@ -658,6 +658,8 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   color: aliceblue;
 }
 .grupos-musicales .video-music .card .descripcion-video .card-text {
+  padding: 1px;
+  font-size: 0.9rem;
   color: aliceblue;
   text-align: justify;
 }
