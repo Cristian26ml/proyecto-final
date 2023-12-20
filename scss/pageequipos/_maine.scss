@@ -1,6 +1,6 @@
 /*Seccion equipo.html*/
 .main{
-    background-color: #000000;
+    background-image: linear-gradient(to right, #000000, #5f3838, #00000080);
     grid-template-columns: 1fr 1fr;
     padding: 15px;
     @include grid(center, center);
