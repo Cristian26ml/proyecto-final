@@ -18,7 +18,6 @@
         div{
             .card-inicio{
                 .row{
-                    //.col-md-4{img{}}
                     .col-md-8{
                         .card-body{
                             padding: 15px;
@@ -39,19 +38,6 @@
             }
         }
    }
-   .separadores-video{
-        .parallax-mirror{
-            width: 100%;
-            transform: translate3d(0px, 199.078px, 0px);
-            //video{}
-        }
-        //.page-main{
-            //ol{
-                //li{}
-            //}
-            //.page-title{}
-        //}
-    }
     .creditos{
         .parrafo{
             p{font-size: 1.5rem!important;
@@ -89,7 +75,6 @@
    }
    .banner-item{
         .video-fondo{
-            //video{}
             .banner-content{
                 .containerone{
                     .banner-subtitle{font-size: 2rem!important;}
@@ -135,15 +120,7 @@
             }
         }
    }
-   .separadores-video{
-        .parallax-mirror{
-            width: 100%;
-            transform: translate3d(0px, 199.078px, 0px);
-        }
-       
-    }
     .button-position{
-        padding: 20px;
         .button-network{
             width: 60%;
             display: grid;
@@ -242,14 +219,7 @@
             }
         }
    }
-   .separadores-video{
-        .parallax-mirror{
-            width: 100%;
-            transform: translate3d(0px, 199.078px, 0px);
-        }
-    }
     .button-position{
-        padding: 20px;
         .button-network{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;

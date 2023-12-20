@@ -297,7 +297,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 .separadores-video .parallax-mirror video {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 .separadores-video .page-main {
@@ -684,10 +684,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   .container-main div .card-inicio .row .col-md-8 .card-body a {
     font-size: 1.2rem !important;
   }
-  .separadores-video .parallax-mirror {
-    width: 100%;
-    transform: translate3d(0px, 199.078px, 0px);
-  }
   .creditos .parrafo p {
     font-size: 1.5rem !important;
     text-align: center;
@@ -738,13 +734,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   }
   .container-main div .card-inicio .row .col-md-8 .card-body a {
     font-size: 0.5rem !important;
-  }
-  .separadores-video .parallax-mirror {
-    width: 100%;
-    transform: translate3d(0px, 199.078px, 0px);
-  }
-  .button-position {
-    padding: 20px;
   }
   .button-position .button-network {
     width: 60%;
@@ -816,13 +805,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   }
   .container-main div .card-inicio .row .col-md-8 .card-body a {
     font-size: 0.5rem !important;
-  }
-  .separadores-video .parallax-mirror {
-    width: 100%;
-    transform: translate3d(0px, 199.078px, 0px);
-  }
-  .button-position {
-    padding: 20px;
   }
   .button-position .button-network {
     display: grid;
@@ -905,7 +887,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   }
   .separadores-video .parallax-mirror {
     width: 100%;
-    transform: none;
   }
   .creditos .parrafo p {
     font-size: 0.8rem !important;

@@ -1,14 +1,9 @@
 /*@MEDIA QUERIES PAGINAS*/
 @media only screen and (min-width: 769px) and (max-width: 1224px){
-    //.grupo-video{
-        //.style-video{video{}}
-        //.content{.card-title-header{}.card-body-header{a{}}}
-    //}
     .container-video-texto{
         div{
             display: grid!important;
             grid-template-rows: 1fr!important;
-            //.video-nosotros{video{}}
             .container-texto{
                 h1{font-size: 1.4rem!important;}
                 p{font-size: 1.0rem!important;}
@@ -19,14 +14,7 @@
         .parallax-mirror{
             width: 100%;
             transform: none;
-            //video{}
         }
-        //.page-main{
-            //ol{
-                //li{}
-            //}
-            //.page-title{}
-        //}
     }
     .creditos{
         .parrafo{
@@ -36,31 +24,18 @@
     } 
 }
 @media only screen and (min-width: 481px) and (max-width: 768px){
-    //.grupo-video{
-        //.style-video{video{}}
-        //.content{.card-title-header{}.card-body-header{a{}}}
-    //}
     .container-video-texto{
         div{
             display: grid!important;
             grid-template-columns: 1fr!important;
             grid-template-rows: 1fr;
-            //.video-nosotros{video{}}
-            //.container-texto{h1{}p{}}
         }
     }
     .separadores-video{
         .parallax-mirror{
             width: 100%;
             transform: none;
-            //video{}
         }
-        //.page-main{
-            //ol{
-                //li{}
-            //}
-            //.page-title{}
-        //}
     }
     .button-position{
         display: flex;
@@ -75,16 +50,11 @@
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 480px){
-    //.grupo-video{
-        //.style-video{video{}}
-        //.content{.card-title-header{}.card-body-header{a{}}}
-    //}
     .container-video-texto{
         div{
             display: grid!important;
             grid-template-columns: 1fr!important;
             grid-template-rows: 1fr;
-            //.video-nosotros{video{}}
             .container-texto{
                 h1{font-size: 1.0rem!important;}
                 p{font-size: 0.7rem!important;}
@@ -94,15 +64,7 @@
     .separadores-video{
         .parallax-mirror{
             width: 100%;
-            transform: none;
-            //video{}
         }
-        //.page-main{
-            //ol{
-                //li{}
-            //}
-            //.page-title{}
-        //}
     }
     .creditos{
         .parrafo{
