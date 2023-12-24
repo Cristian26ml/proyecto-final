@@ -783,6 +783,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     width: 100% !important;
     display: flex !important;
     justify-content: space-around !important;
+    background-color: azure !important;
   }
   .grupo-header .navbar .container .navbar-brand img {
     width: 30px;
