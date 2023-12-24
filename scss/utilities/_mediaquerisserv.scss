@@ -14,6 +14,9 @@
             align-items: end;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
+            .img-uno{
+                img{width: 100%;}
+            }
             .team-content{
                 padding: 1px;
                 .titulo-uno{font-size: 1.3rem;}
@@ -30,8 +33,12 @@
         .single-team{
             display: grid;
             align-items: end;
+            justify-items: center;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
+            .img-uno{
+                img{width: 100%;}
+            }
             .team-content{
                 padding: 1px;
                 text-align: center;
@@ -55,7 +62,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
             .img-uno{
-                img{width: min-content;}
+                img{width: 100%;}
             }
             .team-content{
                 padding: 0%;
