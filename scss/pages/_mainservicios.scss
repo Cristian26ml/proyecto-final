@@ -5,7 +5,7 @@
             height: 100%!important;
             .row{
                 grid-template-columns: 2fr 2fr;
-                background-color: #111111;
+                background-color: $color-primario;
                 display: grid;
                 color: aliceblue;
                 justify-items: start;
@@ -17,6 +17,9 @@
                     .img-fluid{
                         width: 50%;
                         margin: 15px;
+                        max-width: 100%;
+                        border-radius: 5px;
+                        border: 2px solid wheat;
                     }
                 }
                 .col-md-8{

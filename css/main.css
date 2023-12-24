@@ -100,7 +100,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #nosotros .card-inicio .row {
   grid-template-columns: 2fr 2fr;
-  background-color: #111111;
+  background-color: #000000;
   display: grid;
   color: aliceblue;
   justify-items: start;
@@ -114,6 +114,9 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 .container-main #nosotros .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
   margin: 15px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 2px solid wheat;
 }
 .container-main #nosotros .card-inicio .row .col-md-8 .card-body {
   width: 70vh;
@@ -137,7 +140,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #proyectos .card-inicio .row {
   grid-template-columns: 2fr 2fr;
-  background-color: #111111;
+  background-color: #000000;
   display: grid;
   color: aliceblue;
   justify-items: start;
@@ -151,6 +154,9 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 .container-main #proyectos .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
   margin: 15px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 2px solid wheat;
 }
 .container-main #proyectos .card-inicio .row .col-md-8 .card-body {
   width: 70vh;
@@ -174,7 +180,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #servicios .card-inicio .row {
   grid-template-columns: 2fr 2fr;
-  background-color: #111111;
+  background-color: #000000;
   display: grid;
   color: aliceblue;
   justify-items: start;
@@ -188,6 +194,9 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 .container-main #servicios .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
   margin: 15px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 2px solid wheat;
 }
 .container-main #servicios .card-inicio .row .col-md-8 .card-body {
   width: 70vh;
@@ -211,7 +220,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #equipos .card-inicio .row {
   grid-template-columns: 2fr 2fr;
-  background-color: #111111;
+  background-color: #000000;
   display: grid;
   color: aliceblue;
   justify-items: start;
@@ -225,6 +234,9 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 .container-main #equipos .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
   margin: 15px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 2px solid wheat;
 }
 .container-main #equipos .card-inicio .row .col-md-8 .card-body {
   width: 70vh;
@@ -248,7 +260,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #contacto .card-inicio .row {
   grid-template-columns: 2fr 2fr;
-  background-color: #111111;
+  background-color: #000000;
   display: grid;
   color: aliceblue;
   justify-items: start;
@@ -262,6 +274,9 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 .container-main #contacto .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
   margin: 15px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 2px solid wheat;
 }
 .container-main #contacto .card-inicio .row .col-md-8 .card-body {
   width: 70vh;
@@ -419,7 +434,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-video-texto .container-de-video-texto1 {
   grid-template-columns: 2fr 2fr;
-  background-image: linear-gradient(to left, #000000, rgba(211, 30, 49, 0.4784313725));
+  background-image: linear-gradient(to right, #000000, rgba(16, 13, 13, 0.91));
   padding: 15px;
   gap: 15px;
   display: grid !important;
@@ -428,6 +443,8 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-video-texto .container-de-video-texto1 .video-nosotros video {
   max-width: 100%;
+  border-radius: 5px;
+  border: 2px solid wheat;
 }
 .container-video-texto .container-de-video-texto1 .container-texto {
   text-align: justify;
@@ -447,12 +464,14 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   justify-items: center;
   align-items: center;
   grid-template-columns: 2fr 2fr;
-  background-image: linear-gradient(to left, #000000, rgba(211, 30, 49, 0.4784313725));
+  background-image: linear-gradient(to right, #000000, rgba(16, 13, 13, 0.91));
   padding: 15px;
   gap: 15px;
 }
 .container-video-texto .container-de-video-texto2 .video-nosotros video {
   max-width: 100%;
+  border-radius: 5px;
+  border: 2px solid wheat;
 }
 .container-video-texto .container-de-video-texto2 .container-texto {
   text-align: justify;
@@ -484,7 +503,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 
 /*Seccion contacto.html*/
 .content-form-all {
-  background-color: #111111;
+  background-color: #000000;
   width: 100%;
 }
 .content-form-all .titulo {
@@ -598,13 +617,13 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   display: grid;
   grid-template-columns: 2fr;
   padding: 20px;
-  background-color: #111111;
+  background-color: #000000;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   align-items: start;
 }
 .grupo-cards .single-team {
-  background-color: #111111;
+  background-color: #000000;
   display: flex;
   align-items: center;
   padding: 1px;
@@ -880,8 +899,8 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr;
   }
-  .container-video-texto div .container-texto h1 {
-    font-size: 1rem !important;
+  .container-video-texto div .container-texto h2 {
+    font-size: 1.5rem !important;
   }
   .container-video-texto div .container-texto p {
     font-size: 0.7rem !important;

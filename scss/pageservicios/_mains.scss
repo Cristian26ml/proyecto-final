@@ -3,12 +3,12 @@
     display: grid;
     grid-template-columns: 2fr;
     padding: 20px;
-    background-color: #111111;
+    background-color: $color-primario;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     align-items: start;
     .single-team{
-        background-color: #111111;
+        background-color: $color-primario;
         display: flex;
         align-items: center;
         padding: 1px;

@@ -3,7 +3,6 @@
         width: 100%;
         display: flex;
         flex-direction: row-reverse;
-        //.fondoequipo{img{}}
         .grupo-equipos-menu{
             gap: 2rem!important;
             width: 100%;
@@ -13,8 +12,6 @@
             
             gap: 40px;
 
-            //.dropdown{button{}}
-            //.dropdown-menu{li{.dropdown-item{}}}
         }
     }
 }
@@ -39,8 +36,6 @@
             align-items: flex-start;
             
             gap: 40px;
-           // .dropdown{button{}}
-           // .dropdown-menu{li{.dropdown-item{}}}
         }
     }
 }
@@ -48,9 +43,6 @@
     .main{
         display: grid;
         grid-template-columns: 1fr;
-        //flex-direction: column;
-        //justify-content: center;
-        //.fondoequipo{img{}}
         .grupo-equipos-menu{
             width: 100%;
             display: flex;

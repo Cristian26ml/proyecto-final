@@ -5,12 +5,16 @@
     grid-template-rows: 1fr;
     .container-de-video-texto1{
         grid-template-columns: 2fr 2fr;
-        background-image: linear-gradient(to left, #000000, #d31e317a);
+        background-image: linear-gradient(to right, #000000, rgb(16 13 13 / 91%));
         padding: 15px;
         gap: 15px;
         @include grid(center, center);
         .video-nosotros{
-            video{max-width: 100%;}
+            video{
+                max-width: 100%;
+                border-radius: 5px;
+                border: 2px solid wheat;
+            }
         }
         .container-texto{
             text-align: justify;
@@ -27,12 +31,16 @@
     .container-de-video-texto2{
         @include grid(center, center);
         grid-template-columns: 2fr 2fr;
-        background-image: linear-gradient(to left, #000000, #d31e317a);
+        background-image: linear-gradient(to right, #000000, rgb(16 13 13 / 91%));
         padding: 15px;
         gap: 15px;
         
         .video-nosotros{
-            video{max-width: 100%;}
+            video{
+                max-width: 100%;
+                border-radius: 5px;
+                border: 2px solid wheat;
+            }
         }
         .container-texto{
             text-align: justify;
