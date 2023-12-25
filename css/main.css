@@ -653,7 +653,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 /*Seccion proyecto.html*/
 .grupos-musicales {
   padding: 20px;
-  background-image: linear-gradient(to right, #111135, rgba(161, 98, 98, 0.631372549));
+  background-image: linear-gradient(to bottom, #00002e, rgba(161, 98, 98, 0.631372549));
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -666,10 +666,16 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  border: 1px solid white;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.grupos-musicales .video-music .card iframe {
+  border-radius: 5px;
 }
 .grupos-musicales .video-music .card .descripcion-video {
   background-color: black;
+  padding: 5px;
+  border-radius: 5px;
 }
 .grupos-musicales .video-music .card .descripcion-video .card-title {
   color: aliceblue;
@@ -681,6 +687,21 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   text-align: justify;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1224px) {
+  .separadores-video .page-main {
+    padding: 60px 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .separadores-video .page-main {
+    padding: 30px 0;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .separadores-video .page-main {
+    padding: 10px 0;
+  }
+}
 /*@MEDIA QUERIS PARA INDEX.HTML*/
 /*DESTOCK*/
 @media only screen and (min-width: 769px) and (max-width: 1224px) {
@@ -953,8 +974,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   }
   .grupos-musicales .video-music .card {
     border: 1px solid white;
-    width: 100%;
-    padding: 15px;
     display: flex;
     flex-wrap: wrap;
   }

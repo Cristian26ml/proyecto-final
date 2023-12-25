@@ -1,7 +1,7 @@
 /*Seccion proyecto.html*/
 .grupos-musicales{
     padding: 20px;
-    background-image: linear-gradient(to right, #111135, #a16262a1);
+    background-image: linear-gradient(to bottom, #00002e, #a16262a1);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -15,9 +15,15 @@
             display: flex;
             flex-direction: row;
             gap: 15px;
-            border: 1px solid white;
+            border-radius: 5px;
+            border: 2px solid white;
+            iframe{
+                border-radius: 5px;
+            }
             .descripcion-video{
                 background-color: black;
+                padding: 5px;
+                border-radius: 5px;
                 .card-title{color: aliceblue;}
                 .card-text{
                     padding: 1px;
