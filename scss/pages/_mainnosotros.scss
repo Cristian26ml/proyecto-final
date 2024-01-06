@@ -1,8 +1,8 @@
 .container-main{
     #nosotros{
         .card-inicio{
-            width: 100%!important;
-            height: 100%!important;
+            width: 100%;
+            height: 100%;
             .row{
                 grid-template-columns: 2fr 2fr;
                 background-color: $color-primario;
@@ -16,8 +16,6 @@
                     width:100%;
                     .img-fluid{
                         width: 50%;
-                        margin: 15px;
-                        max-width: 100%;
                         border-radius: 5px;
                         border: 2px solid wheat;
                     }

@@ -32,7 +32,7 @@ video {
 }
 
 /*header index.html*/
-header .grupo-header {
+.grupo-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -48,20 +48,20 @@ header .grupo-header {
   display: flex;
   justify-content: space-between;
 }
-header .grupo-header .navbar .container .navbar-toggler {
+.grupo-header .navbar .container .navbar-toggler {
   border: none;
 }
-header .grupo-header .navbar .container .navbar-toggler:focus {
+.grupo-header .navbar .container .navbar-toggler:focus {
   box-shadow: none;
 }
-header .grupo-header .navbar .collapse .navbar-nav {
+.grupo-header .navbar .collapse .navbar-nav {
   column-gap: 40px;
 }
-header .grupo-header .navbar .collapse .navbar-nav .nav-item {
+.grupo-header .navbar .collapse .navbar-nav .nav-item {
   font-size: 20px;
   display: contents;
 }
-header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+.grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(6, 6, 8, 0.237);
   border-radius: 10;
 }
@@ -95,8 +95,8 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 
 .container-main #nosotros .card-inicio {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
 }
 .container-main #nosotros .card-inicio .row {
   grid-template-columns: 2fr 2fr;
@@ -113,8 +113,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #nosotros .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
-  margin: 15px;
-  max-width: 100%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
@@ -153,8 +151,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #proyectos .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
-  margin: 15px;
-  max-width: 100%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
@@ -193,8 +189,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #servicios .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
-  margin: 15px;
-  max-width: 100%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
@@ -233,8 +227,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #equipos .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
-  margin: 15px;
-  max-width: 100%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
@@ -273,8 +265,6 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 }
 .container-main #contacto .card-inicio .row .col-md-4 .img-fluid {
   width: 50%;
-  margin: 15px;
-  max-width: 100%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
@@ -709,6 +699,13 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     width: 90px;
     height: 90px;
   }
+  .container-main div .card-inicio .row {
+    display: flex;
+    max-width: 100%;
+  }
+  .container-main div .card-inicio .row .col-md-4 img {
+    width: 100% !important;
+  }
   .container-main div .card-inicio .row .col-md-8 .card-body {
     padding: 15px;
     text-align: center;
@@ -717,11 +714,14 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     font-size: 2rem !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-text {
-    font-size: 1rem !important;
-    text-align: center !important;
+    font-size: 1.4rem !important;
+    text-align: justify !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body a {
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
+  }
+  .creditos {
+    padding: 0;
   }
   .creditos .parrafo p {
     font-size: 1.5rem !important;
@@ -731,9 +731,8 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 /*TABLET*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .grupo-header {
-    width: 100% !important;
-    display: flex !important;
-    justify-content: space-around !important;
+    position: static !important;
+    background-color: aliceblue !important;
   }
   .grupo-header .navbar .container .navbar-brand img {
     width: 50px;
@@ -749,15 +748,13 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     font-size: 1.5rem;
   }
   .container-main div .card-inicio .row {
-    display: flex !important;
-    flex-direction: column;
     max-width: 100%;
   }
   .container-main div .card-inicio .row .col-md-4 img {
-    width: 35% !important;
+    width: 100% !important;
   }
   .container-main div .card-inicio .row .col-md-8 {
-    width: 60% !important;
+    width: 100% !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body {
     width: 100% !important;
@@ -765,14 +762,13 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     text-align: center;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-title {
-    font-size: 1rem !important;
+    font-size: 2rem !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-text {
-    font-size: 0.5rem !important;
-    text-align: center !important;
+    font-size: 0.9rem !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body a {
-    font-size: 0.5rem !important;
+    font-size: 1.5rem !important;
   }
   .button-position .button-network {
     width: 60%;
@@ -799,10 +795,18 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
 /*MOBILE*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .grupo-header {
-    width: 100% !important;
-    display: flex !important;
-    justify-content: space-around !important;
+    position: static !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     background-color: azure !important;
+  }
+  .grupo-header .navbar .container {
+    margin: 0% !important;
+    width: 100%;
+  }
+  .grupo-header .navbar .container .navbar-brand {
+    margin: 0% !important;
   }
   .grupo-header .navbar .container .navbar-brand img {
     width: 30px;
@@ -826,7 +830,7 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     text-align: center;
   }
   .container-main div .card-inicio .row .col-md-4 img {
-    width: 35% !important;
+    width: 100% !important;
   }
   .container-main div .card-inicio .row .col-md-8 {
     width: 100% !important;
@@ -837,14 +841,17 @@ header .grupo-header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     text-align: center;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-title {
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-text {
-    font-size: 0.5rem !important;
-    text-align: center !important;
+    font-size: 0.9rem !important;
+    text-align: justify;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body a {
-    font-size: 0.5rem !important;
+    font-size: 1.5rem !important;
+  }
+  .separadores-video .parallax-mirror {
+    transform: none;
   }
   .button-position .button-network {
     display: grid;

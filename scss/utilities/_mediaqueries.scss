@@ -18,6 +18,13 @@
         div{
             .card-inicio{
                 .row{
+                    display: flex;
+                    max-width: 100%;
+                    .col-md-4{
+                        img{
+                            width: 100%!important;
+                        }
+                    }
                     .col-md-8{
                         .card-body{
                             padding: 15px;
@@ -26,11 +33,11 @@
                                 font-size: 2rem!important;
                             }
                             .card-text{
-                                font-size: 1.0rem!important;
-                                text-align: center!important;
+                                font-size: 1.4rem!important;
+                                text-align: justify!important;
                             }
                             a{
-                                font-size: 1.2rem!important; 
+                                font-size: 1.4rem!important; 
                             }
                         }
                     }
@@ -39,6 +46,7 @@
         }
    }
     .creditos{
+        padding: 0;
         .parrafo{
             p{font-size: 1.5rem!important;
                 text-align: center;}
@@ -48,9 +56,8 @@
 /*TABLET*/
 @media only screen and (min-width: 481px) and (max-width: 768px){
     .grupo-header{
-        width: 100%!important;
-        display: flex!important;
-        justify-content: space-around!important;
+        position:static!important;
+        background-color: aliceblue!important;
         .navbar{
             .container{
                 .navbar-brand{
@@ -90,29 +97,26 @@
         div{
             .card-inicio{
                 .row{
-                    display: flex!important;
-                    flex-direction: column;
                     max-width: 100%;
                     .col-md-4{
                         img{
-                            width: 35%!important;
+                            width: 100%!important;
                         }
                     }
                     .col-md-8{
-                        width: 60%!important;
+                        width: 100%!important;
                         .card-body{
                             width: 100%!important;
                             padding: 15px;
                             text-align: center;
                             .card-title{
-                                font-size: 1rem!important;
+                                font-size: 2rem!important;
                             }
                             .card-text{
-                                font-size: 0.5rem!important;
-                                text-align: center!important;
+                                font-size: 0.9rem!important;
                             }
                             a{
-                                font-size: 0.5rem!important; 
+                                font-size: 1.5rem!important; 
                             }
                         }
                     }
@@ -147,13 +151,17 @@
 /*MOBILE*/
 @media only screen and (min-width: 320px) and (max-width: 480px){
     .grupo-header{
-        width: 100%!important;
-        display: flex!important;
-        justify-content: space-around!important;
+        position: static!important;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
         background-color: azure!important;
         .navbar{
             .container{
+                margin: 0%!important;
+                width: 100%;
                 .navbar-brand{
+                    margin: 0%!important;
                     img{
                         width: 30px;
                         height: 30px; 
@@ -195,7 +203,7 @@
                     text-align: center;
                     .col-md-4{
                         img{
-                            width: 35%!important;
+                            width: 100%!important;
                         }
                     }
                     .col-md-8{
@@ -205,14 +213,14 @@
                             padding: 15px;
                             text-align: center;
                             .card-title{
-                                font-size: 1rem!important;
+                                font-size: 1.2rem!important;
                             }
                             .card-text{
-                                font-size: 0.5rem!important;
-                                text-align: center!important;
+                                font-size: 0.9rem!important;
+                                text-align: justify;
                             }
                             a{
-                                font-size: 0.5rem!important; 
+                                font-size: 1.5rem!important; 
                             }
                         }
                     }
@@ -220,6 +228,13 @@
             }
         }
    }
+
+   .separadores-video{
+        .parallax-mirror{
+            transform: none;
+        }
+   }
+   
     .button-position{
         .button-network{
             display: grid;
