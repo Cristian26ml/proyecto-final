@@ -94,10 +94,6 @@ video {
   line-height: 1;
 }
 
-.container-main #nosotros .card-inicio {
-  width: 100%;
-  height: 100%;
-}
 .container-main #nosotros .card-inicio .row {
   grid-template-columns: 2fr 2fr;
   background-color: #000000;
@@ -112,19 +108,19 @@ video {
   width: 100%;
 }
 .container-main #nosotros .card-inicio .row .col-md-4 .img-fluid {
-  width: 50%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
-.container-main #nosotros .card-inicio .row .col-md-8 .card-body {
-  width: 70vh;
+.container-main #nosotros .card-inicio .row .col-md-8 {
+  width: 100%;
+  padding: 20px;
 }
 .container-main #nosotros .card-inicio .row .col-md-8 .card-body .card-title {
   font-size: 3rem;
   color: aliceblue;
 }
 .container-main #nosotros .card-inicio .row .col-md-8 .card-body .card-text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: justify;
   color: aliceblue;
 }
@@ -132,10 +128,6 @@ video {
   font-size: 2rem;
 }
 
-.container-main #proyectos .card-inicio {
-  width: 100% !important;
-  height: 100% !important;
-}
 .container-main #proyectos .card-inicio .row {
   grid-template-columns: 2fr 2fr;
   background-color: #000000;
@@ -150,19 +142,19 @@ video {
   width: 100%;
 }
 .container-main #proyectos .card-inicio .row .col-md-4 .img-fluid {
-  width: 50%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
-.container-main #proyectos .card-inicio .row .col-md-8 .card-body {
-  width: 70vh;
+.container-main #proyectos .card-inicio .row .col-md-8 {
+  width: 100%;
+  padding: 20px;
 }
 .container-main #proyectos .card-inicio .row .col-md-8 .card-body .card-title {
   font-size: 3rem;
   color: aliceblue;
 }
 .container-main #proyectos .card-inicio .row .col-md-8 .card-body .card-text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: justify;
   color: aliceblue;
 }
@@ -170,10 +162,6 @@ video {
   font-size: 2rem;
 }
 
-.container-main #servicios .card-inicio {
-  width: 100% !important;
-  height: 100% !important;
-}
 .container-main #servicios .card-inicio .row {
   grid-template-columns: 2fr 2fr;
   background-color: #000000;
@@ -188,19 +176,19 @@ video {
   width: 100%;
 }
 .container-main #servicios .card-inicio .row .col-md-4 .img-fluid {
-  width: 50%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
-.container-main #servicios .card-inicio .row .col-md-8 .card-body {
-  width: 70vh;
+.container-main #servicios .card-inicio .row .col-md-8 {
+  width: 100%;
+  padding: 20px;
 }
 .container-main #servicios .card-inicio .row .col-md-8 .card-body .card-title {
   font-size: 3rem;
   color: aliceblue;
 }
 .container-main #servicios .card-inicio .row .col-md-8 .card-body .card-text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: justify;
   color: aliceblue;
 }
@@ -208,10 +196,6 @@ video {
   font-size: 2rem;
 }
 
-.container-main #equipos .card-inicio {
-  width: 100% !important;
-  height: 100% !important;
-}
 .container-main #equipos .card-inicio .row {
   grid-template-columns: 2fr 2fr;
   background-color: #000000;
@@ -226,19 +210,19 @@ video {
   width: 100%;
 }
 .container-main #equipos .card-inicio .row .col-md-4 .img-fluid {
-  width: 50%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
-.container-main #equipos .card-inicio .row .col-md-8 .card-body {
-  width: 70vh;
+.container-main #equipos .card-inicio .row .col-md-8 {
+  width: 100%;
+  padding: 20px;
 }
 .container-main #equipos .card-inicio .row .col-md-8 .card-body .card-title {
   font-size: 3rem;
   color: aliceblue;
 }
 .container-main #equipos .card-inicio .row .col-md-8 .card-body .card-text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: justify;
   color: aliceblue;
 }
@@ -246,10 +230,6 @@ video {
   font-size: 2rem;
 }
 
-.container-main #contacto .card-inicio {
-  width: 100% !important;
-  height: 100% !important;
-}
 .container-main #contacto .card-inicio .row {
   grid-template-columns: 2fr 2fr;
   background-color: #000000;
@@ -264,19 +244,19 @@ video {
   width: 100%;
 }
 .container-main #contacto .card-inicio .row .col-md-4 .img-fluid {
-  width: 50%;
   border-radius: 5px;
   border: 2px solid wheat;
 }
-.container-main #contacto .card-inicio .row .col-md-8 .card-body {
-  width: 70vh;
+.container-main #contacto .card-inicio .row .col-md-8 {
+  width: 100%;
+  padding: 20px;
 }
 .container-main #contacto .card-inicio .row .col-md-8 .card-body .card-title {
   font-size: 3rem;
   color: aliceblue;
 }
 .container-main #contacto .card-inicio .row .col-md-8 .card-body .card-text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: justify;
   color: aliceblue;
 }
@@ -696,35 +676,28 @@ video {
 /*DESTOCK*/
 @media only screen and (min-width: 769px) and (max-width: 1224px) {
   .grupo-header .navbar .container .navbar-brand img {
-    width: 90px;
-    height: 90px;
-  }
-  .container-main div .card-inicio .row {
-    display: flex;
-    max-width: 100%;
+    width: 100%;
   }
   .container-main div .card-inicio .row .col-md-4 img {
-    width: 100% !important;
-  }
-  .container-main div .card-inicio .row .col-md-8 .card-body {
-    padding: 15px;
-    text-align: center;
+    width: 100%;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-title {
-    font-size: 2rem !important;
+    text-align: center;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-text {
-    font-size: 1.4rem !important;
-    text-align: justify !important;
+    font-size: 2rem;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body a {
     font-size: 1.4rem !important;
   }
   .creditos {
-    padding: 0;
+    padding: 30px;
+  }
+  .creditos .parrafo {
+    font-size: 1rem;
   }
   .creditos .parrafo p {
-    font-size: 1.5rem !important;
+    font-size: 1rem;
     text-align: center;
   }
 }
@@ -754,10 +727,9 @@ video {
     width: 100% !important;
   }
   .container-main div .card-inicio .row .col-md-8 {
-    width: 100% !important;
+    padding: 0% !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body {
-    width: 100% !important;
     padding: 15px;
     text-align: center;
   }
@@ -768,7 +740,7 @@ video {
     font-size: 0.9rem !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body a {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
   .button-position .button-network {
     width: 60%;
@@ -802,60 +774,52 @@ video {
     background-color: azure !important;
   }
   .grupo-header .navbar .container {
-    margin: 0% !important;
-    width: 100%;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: 0;
+    margin-left: 0;
   }
   .grupo-header .navbar .container .navbar-brand {
-    margin: 0% !important;
+    padding: 0%;
   }
   .grupo-header .navbar .container .navbar-brand img {
-    width: 30px;
-    height: 30px;
-  }
-  .grupo-header .navbar .container .collapse .navbar-nav {
-    gap: 0px;
+    width: 50px;
+    height: 50%;
   }
   .grupo-header .navbar .container .collapse .navbar-nav .nav-item .nav-link {
-    font-size: 0.7rem;
+    font-weight: 700;
+  }
+  .banner-item .video-fondo .banner-content .containerone {
+    padding: 5px;
   }
   .banner-item .video-fondo .banner-content .containerone .banner-subtitle {
-    font-size: 1rem !important;
+    font-size: 1.4rem;
   }
   .banner-item .video-fondo .banner-content .containerone .banner-title p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .container-main div .card-inicio .row {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    text-align: center;
+    display: flex !important;
   }
   .container-main div .card-inicio .row .col-md-4 img {
-    width: 100% !important;
-  }
-  .container-main div .card-inicio .row .col-md-8 {
-    width: 100% !important;
-  }
-  .container-main div .card-inicio .row .col-md-8 .card-body {
-    width: 100% !important;
-    padding: 15px;
-    text-align: center;
+    width: 100%;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-title {
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body .card-text {
     font-size: 0.9rem !important;
-    text-align: justify;
   }
   .container-main div .card-inicio .row .col-md-8 .card-body a {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
   .separadores-video .parallax-mirror {
     transform: none;
   }
   .button-position .button-network {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
   }
@@ -892,10 +856,6 @@ video {
   .separadores-video .parallax-mirror {
     width: 100%;
     transform: none;
-  }
-  .creditos .parrafo p {
-    font-size: 1.2rem !important;
-    text-align: center;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -974,7 +934,6 @@ video {
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .grupos-musicales {
-    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -985,10 +944,11 @@ video {
     flex-wrap: wrap;
   }
   .grupos-musicales .video-music .card .descripcion-video .card-title {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
   }
   .grupos-musicales .video-music .card .descripcion-video .card-text {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1224px) {
@@ -1116,16 +1076,20 @@ video {
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .main {
-    display: grid;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.2705882353), black);
+    display: grid !important;
     grid-template-columns: 1fr;
   }
-  .main .grupo-equipos-menu {
+  .main .fondoequipo img {
     width: 100%;
+  }
+  .main .grupo-equipos-menu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
     gap: 10px;
+    padding: 30px !important;
   }
   .main .grupo-equipos-menu .dropdown button {
     font-size: 0.9rem;
