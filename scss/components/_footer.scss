@@ -1,5 +1,5 @@
 .button-position{
-    text-align: -webkit-center;
+    text-align: center;
     background-color: rgba(104, 98, 98, 0.66);
     .log-footer{
         display: inline-block;
@@ -40,22 +40,28 @@
                 display: block;
             }
             &:nth-child(1):hover{
-                color: #6eb6ea;
+                color: $color-f;
+                -webkit-text-stroke: 1px $color-letras;
             }
             &:nth-child(2):hover{
-                color: rgb(11, 170, 170);
+                color: $color-t;
+                -webkit-text-stroke: 1px $color-letras;
             }
             &:nth-child(3):hover{
-                color: #87103a;
+                color: $color-i;
+                -webkit-text-stroke: 1px $color-letras;
             }
             &:nth-child(4):hover{
-                color: #cf0332;
+                color: $color-y;
+                -webkit-text-stroke: 1px $color-letras;
             }
             &:nth-child(5):hover{
-                color: #2db721;
+                color: $color-w;
+                -webkit-text-stroke: 1px $color-letras;
             }
             &:nth-child(6):hover{
-                color: #801622;                    
+                color: $color-s;
+                -webkit-text-stroke: 1px $color-letras;                    
             }
             p{
                 display: none;

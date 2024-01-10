@@ -9,7 +9,7 @@
     .content{
         position: absolute;
         .card-title-header{
-            color: aliceblue;
+            color: $color-letras;
             font-size: 9vw;
         }
         .card-body-header{
@@ -17,7 +17,7 @@
                 &:hover{
                     background-color: rgb(22, 21, 19);
                 }
-                color: aliceblue;
+                color: $color-letras;
                 text-decoration: none;
                 font-size: 5vw;
             }

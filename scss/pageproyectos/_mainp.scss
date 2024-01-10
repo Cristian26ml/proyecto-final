@@ -24,11 +24,11 @@
                 background-color: black;
                 padding: 5px;
                 border-radius: 5px;
-                .card-title{color: aliceblue;}
+                .card-title{color: $color-letras;}
                 .card-text{
                     padding: 1px;
                     font-size: 0.9rem;
-                    color: aliceblue;
+                    color: $color-letras;
                     text-align: justify;
                 }
             }

@@ -315,7 +315,7 @@ video {
 }
 
 .button-position {
-  text-align: -webkit-center;
+  text-align: center;
   background-color: rgba(104, 98, 98, 0.66);
 }
 .button-position .log-footer {
@@ -357,22 +357,28 @@ video {
   display: block;
 }
 .button-position .button-network .button-network__button:nth-child(1):hover {
-  color: #6eb6ea;
+  color: rgb(0, 0, 115);
+  -webkit-text-stroke: 1px aliceblue;
 }
 .button-position .button-network .button-network__button:nth-child(2):hover {
-  color: rgb(11, 170, 170);
+  color: #1f0e0e;
+  -webkit-text-stroke: 1px aliceblue;
 }
 .button-position .button-network .button-network__button:nth-child(3):hover {
-  color: #87103a;
+  color: rgb(234, 225, 225);
+  -webkit-text-stroke: 1px aliceblue;
 }
 .button-position .button-network .button-network__button:nth-child(4):hover {
-  color: #cf0332;
+  color: rgb(181, 0, 0);
+  -webkit-text-stroke: 1px aliceblue;
 }
 .button-position .button-network .button-network__button:nth-child(5):hover {
-  color: #2db721;
+  color: rgb(19, 168, 19);
+  -webkit-text-stroke: 1px aliceblue;
 }
 .button-position .button-network .button-network__button:nth-child(6):hover {
-  color: #801622;
+  color: rgb(216, 141, 1);
+  -webkit-text-stroke: 1px aliceblue;
 }
 .button-position .button-network .button-network__button p {
   display: none;
@@ -560,7 +566,7 @@ video {
   padding: 8px 16px;
   border: none;
   background: #333;
-  color: #f2f2f2;
+  color: aliceblue;
   text-transform: uppercase;
   letter-spacing: 0.09em;
   border-radius: 2px;

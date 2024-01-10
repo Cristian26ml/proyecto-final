@@ -4,7 +4,7 @@
     width: 100%;
     .titulo{
         background-color: $color-primario;
-        color: aliceblue;
+        color: $color-letras;
         text-align: justify;
         font-size: 2rem;
         padding: 30px;
@@ -36,13 +36,13 @@
                     }
                     .colortexto{
                         width: 100%;
-                        color: aliceblue;
+                        color: $color-letras;
                         background-color: rgba(78 54 57 / 83%);
                         &:not([type='checkbox']){
                             background-color: rgba(210, 199, 199, 0.16);
                             padding: 15px;
                             border: none;
-                            color: aliceblue;
+                            color: $color-letras;
                         }
                     }
                     textarea{
@@ -54,14 +54,14 @@
                         background-color: rgba(210, 199, 199, 0.16);
                         padding: 15px;
                         border: none;
-                        color: aliceblue; 
+                        color: $color-letras; 
                     }
                     button{
                         margin-left: 0;
                         padding: 8px 16px;
                         border: none;
                         background: #333;
-                        color: #f2f2f2;
+                        color: $color-letras;
                         text-transform: uppercase;
                         letter-spacing: .09em;
                         border-radius: 2px;
@@ -75,7 +75,7 @@
     width: 100%;
     padding: 30px;
     background-color: #111111;
-    color: aliceblue;
+    color: $color-letras;
     .mapastudio{
         display: grid;
         grid-template-columns: 1fr 1fr;

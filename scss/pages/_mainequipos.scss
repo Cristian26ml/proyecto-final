@@ -5,7 +5,7 @@
                 grid-template-columns: 2fr 2fr;
                 background-color: $color-primario;
                 display: grid;
-                color: aliceblue;
+                color: $color-letras;
                 justify-items: start;
                 gap: 10px;
                 align-items: center;
@@ -23,12 +23,12 @@
                     .card-body{
                         .card-title{
                             font-size: 3rem;
-                            color:aliceblue;
+                            color:$color-letras;
                         }
                         .card-text{
                             font-size: 1.5rem;
                             text-align: justify;
-                            color: aliceblue;
+                            color: $color-letras;
                         }
                         a{
                             background: white;
