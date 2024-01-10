@@ -8,3 +8,8 @@
     justify-items: $justify-items;
     align-items: $align-items;
 }
+@mixin h2($aling, $style, $decoration){
+    text-align: $aling;
+    font-style: $style;
+    text-decoration: $decoration;
+}
